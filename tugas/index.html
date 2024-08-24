@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digimon Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Digimon Info</h1>
+        <input type="text" id="digimonName" placeholder="Enter Digimon name" aria-label="Enter Digimon name">
+        <button onclick="getDigimon()" aria-label="Search for Digimon">Search</button>
+        <div id="loading" class="hidden">Loading...</div>
+        <div id="digimonInfo" role="region" aria-live="polite"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
